@@ -1,0 +1,61 @@
+.main {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  min-height: 100vh;
+  background-color:none;
+}
+.bg{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  position: absolute;
+  z-index: -999;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.img{
+  height: 100vh;
+  width: 100vw;
+}
+
+.heading{
+  display: flex;
+  position: absolute;
+  width: 70vw;
+  height: 40vh;
+  color: green;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  position: relative;
+  z-index: 1;
+}
+.buttonContainer{
+  width: 70vw;
+  height: 20vh;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  z-index:1;
+}
+.button{
+  display: flex;
+  color: white;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 5vh;
+  width: 30vw;
+  border: 2px white solid;
+  border-radius: 30px;
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+  z-index: 1;
+  bottom: -40vh;
+}
